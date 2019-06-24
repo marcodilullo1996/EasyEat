@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EasyEat</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string-array name="antipasti">
+        <item>Antipasto di Mare</item>
+        <item>Antipasto di Terra</item>
+        <item>Fritto Misto</item>
+        <item>Tartare di tonno</item>
+    </string-array>
+
+    <string-array name="primiPiatti">
+        <item>Linguine con Vongole</item>
+        <item>Ravioli con funghi e patate</item>
+        <item>Rigatoni alla Genovese</item>
+        <item>Trofie ai Frutti di Mare</item>
+    </string-array>
+
+    <string-array name="secondiPiatti">
+        <item>Agnello alla brace</item>
+        <item>Entrecote con timo e rosmarino</item>
+        <item>Frittura di pesce</item>
+        <item>Polpo alla brace</item>
+    </string-array>
+
+    <string-array name="dolci">
+        <item>Babà</item>
+        <item>Crostata con frutta fresca</item>
+        <item>Tiramisù</item>
+        <item>Tortino ripieno di cioccolato</item>
+
+    </string-array>
+
+    <string-array name="bevande">
+        <item>Acqua Naturale</item>
+        <item>Acqua Frizzante</item>
+        <item>Coca Cola</item>
+        <item>Fanta</item>
+        <item>Vino Rosso</item>
+        <item>Vino Bianco</item>
+
+    </string-array>
+</resources>

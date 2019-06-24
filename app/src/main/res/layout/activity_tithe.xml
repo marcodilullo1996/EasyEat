@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".titheActivity">
+
+    <TextView
+        android:id="@+id/textViewFine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="47dp"
+        android:text="Complimenti, ordine effettuato!"
+        android:textColor="@color/textViewRestaurantQRCode"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/testViewTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="128dp"
+        android:text="10m"
+        android:textColor="@color/colorRed"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewtempo2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textViewFine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="32dp"
+        android:text="potrai iniziare a gustare le tue pietanze!"
+        android:textColor="@color/textViewRestaurantQRCode"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testViewTempo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFine"
+        app:srcCompat="@drawable/piattofumante" />
+
+    <TextView
+        android:id="@+id/textViewtempo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="7dp"
+
+        android:text="In soli"
+        android:textColor="@color/textViewRestaurantQRCode"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/testViewTempo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</android.support.constraint.ConstraintLayout>
